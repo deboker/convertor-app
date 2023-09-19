@@ -41,7 +41,7 @@ function ConverterApp() {
   return (
     <div className="container">
       <div className="header">
-        <h1>Metric/Imperial Unit Conversion</h1>
+        <h1>Metric / Imperial Unit Conversion</h1>
         <input
           type="number"
           id="input-el"
