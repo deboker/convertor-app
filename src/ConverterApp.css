@@ -21,7 +21,7 @@ body {
 .header {
   background-image: url("images/pexels-tima-miroshnichenko-6790765.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   padding: 3rem;
   gap: 2rem;
@@ -31,10 +31,11 @@ body {
 }
 
 h1 {
-  color: rgba(105, 67, 255, 0.5);
+  color: #ffffff;
   margin-top: 30px;
-  text-shadow: 8px 4px 4px rgba(28, 28, 28, 0.5);
-  -webkit-text-stroke: 0.1px #c5c5c5;
+  text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0.1px #000000;
+  letter-spacing: 0.05rem;
 }
 
 #input-el {
@@ -98,6 +99,7 @@ h1 {
   margin: 20px 25px 25px 25px;
   background: rgba(47, 28, 21, 0.5);
   border-radius: 5px 0px 0px 0px;
+  border: #ccc1ff solid;
 }
 
 h4 {
