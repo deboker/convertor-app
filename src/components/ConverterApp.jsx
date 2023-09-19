@@ -11,8 +11,8 @@ function ConverterApp() {
     const feetToMeters = inputValue / 3.281;
     setLengthResult(
       `${inputValue} meters = ${metersToFeet.toFixed(
-        3
-      )} feet | ${inputValue} feet = ${feetToMeters.toFixed(3)} meters`
+        2
+      )} feet | ${inputValue} feet = ${feetToMeters.toFixed(2)} meters`
     );
   };
 
@@ -21,8 +21,8 @@ function ConverterApp() {
     const gallonsToLiters = inputValue / 0.264;
     setVolumeResult(
       `${inputValue} liters = ${litersToGallons.toFixed(
-        3
-      )} gallons | ${inputValue} gallons = ${gallonsToLiters.toFixed(3)} liters`
+        2
+      )} gallons | ${inputValue} gallons = ${gallonsToLiters.toFixed(2)} liters`
     );
   };
 
@@ -31,9 +31,9 @@ function ConverterApp() {
     const poundsToKilograms = inputValue / 2.204;
     setMassResult(
       `${inputValue} kilograms = ${kilogramsToPounds.toFixed(
-        3
+        2
       )} pounds | ${inputValue} pounds = ${poundsToKilograms.toFixed(
-        3
+        2
       )} kilograms`
     );
   };
