@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  background-image: url("images/pexels-tima-miroshnichenko-6790765.jpg");
+  background-image: url("./images/pexels-arfan-a-1845829.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
